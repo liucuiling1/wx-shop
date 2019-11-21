@@ -1,0 +1,73 @@
+<view class='body'>
+  <view class='header'>混凝土公司快他说的回访客户的设计师g活动规定和搜狗
+  </view>
+  <view class='heder_tr'>会员名称展示
+    <text>2018-12-09</text>
+  </view>
+  <view class='header_center'>点击
+    <text>蓝色字体</text> 关注我们
+  </view>
+  <image class='detail_img' src=''></image>
+  <view class='detail_miao'>
+    <view>描述</view>
+    <view class='text_in'>高峰说，从趋势上看，我国外贸市场多元化的步伐正在加快，个别市场的波动对整体外贸发展趋势影响有限，特别是我国进口潜力正在逐步释放，明年我国外贸高质量发展进一步加快仍然具备有力的支撑。</view>
+  </view>
+  <view class='detail_center'>
+    <view class='ulli'>
+      <view></view>
+      预计2019年进口增长将保持相对高位。
+    </view>
+    <view class='ulli'>
+      <view></view>
+      对此，中国民生银行研究院院长黄剑辉昨日对《证券日报》
+    </view>
+    <view class='ulli'>
+      <view></view>
+      对此，预计2019年进口增长将保持相对高位。
+    </view>
+  </view>
+  <view class='heart'>
+    <image src='../../assets/images/xiangqing_dianzan@2x.png'></image>
+    2236
+  </view>
+  <view class='patteey'>
+    <image class='patteey_img' src=''></image>
+    <image class='patteey_ab' src='../../assets/images/guanggao@2x.png'></image>
+  </view>
+  <view class='review'>
+    <view class='me_headeurl'>
+      <image src=''></image>
+    </view>
+    <view class='review_right'>
+      <view class='name'>小小小太阳</view>
+      <view class='word'>中国人民用双手书写了经济发展的奇迹，40年时间，GDP从3600多亿，上涨到2017年的82万多亿。</view>
+      <view class='review_back'>
+        <view>回复</view>
+      </view>
+      <view class='fack'>
+        <view class='fack_header'>
+          <text>大写的不怕:</text> 中国人民用双手书写了经济发展的奇迹
+        </view>
+        <view class='fack_back'>03/26
+          <view>回复</view>
+        </view>
+        <view class='fack_header'>
+          <text>大写的不怕:</text> 中国人民用双手书写了经济发展的奇迹
+        </view>
+        <view class='fack_back'>03/26
+          <view>回复</view>
+        </view>
+        <view class='getmore'>查看全部7条回复</view>
+      </view>
+    </view>
+  </view>
+  <view style='clear:both;'></view>
+  <view class='none'>没有更多了</view>
+  <view class='empty'></view>
+</view>
+<view class='fixed'>
+  <view class='input_style'>
+    <input type='text' placeholder='点击此处进行评论'></input>
+  </view>
+  <image src='../../assets/images/xiangqing_pinglun_shoucang@2x.png'></image>
+</view>

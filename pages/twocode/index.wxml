@@ -1,0 +1,7 @@
+<view class='body'>
+  <view class='code'>
+    <image src=''></image>
+    <view>扫码查看商家</view>
+  </view>
+  <view class='add' bindtap='submitreviiew'>保存图片</view>
+</view>

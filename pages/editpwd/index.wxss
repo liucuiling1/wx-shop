@@ -1,0 +1,44 @@
+page {
+  background: #f1f1f1;
+}
+
+.body {
+  width: 100%;
+}
+
+.infoMain {
+  background-color: #fff;
+  padding-left: 34rpx;
+  padding: 0 34rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+
+.info-items {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: solid 1px #f0f0f0;
+  font-size: 34rpx;
+  color: #999;
+}
+
+.info-motto {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  font-size: 34rpx;
+}
+
+.add {
+  width: 92%;
+  height: 88rpx;
+  text-align: center;
+  line-height: 88rpx;
+  background: #fe4b33;
+  margin: 0 auto;
+  margin-top: 92rpx;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 36rpx;
+}

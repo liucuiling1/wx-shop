@@ -1,0 +1,30 @@
+page {
+  background: #fff;
+}
+
+.body {
+  width: 100%;
+}
+
+.feed {
+  width: 100%;
+  background: #fff;
+  text-align: center;
+  font-size: 28rpx;
+  color: #888;
+}
+
+.feed image {
+  width: 200rpx;
+  height: 200rpx;
+  background-size: 100%;
+  margin-top: 80rpx;
+  vertical-align: middle;
+}
+
+.success {
+  font-size: 40rpx;
+  color: #000;
+  margin-top: 70rpx;
+  margin-bottom: 34rpx;
+}

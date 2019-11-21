@@ -1,0 +1,43 @@
+<view class='body'>
+  <view class='content'>
+    <view class='shoplist'>
+      <view class='pictureUrl_style'>
+        <image class='picture_img' src=''></image>
+      </view>
+      <view class='listy'>
+        <view class='Name_style'>兰芝官网旗舰店消息提醒</view>
+        <view class='Namecolor_img'>
+          <image src='../../assets/images/xiangqing_dianzan@2x.png'></image>
+        </view>
+        <view class='Namecolor'>有新的一条消息</view>
+      </view>
+      <image class='right_styleimg' src=''></image>
+    </view>
+    <view class='shoplist'>
+      <view class='pictureUrl_style'>
+        <image class='picture_img' src=''></image>
+      </view>
+      <view class='listy'>
+        <view class='Name_style'>兰芝官网旗舰店消息提醒</view>
+        <view class='Namecolor_img'>
+          <image src='../../assets/images/xiangqing_dianzan@2x.png'></image>
+        </view>
+        <view class='Namecolor'>有新的一条消息</view>
+      </view>
+      <image class='right_styleimg' src=''></image>
+    </view>
+    <view class='shoplist'>
+      <view class='pictureUrl_style'>
+        <image class='picture_img' src=''></image>
+      </view>
+      <view class='listy'>
+        <view class='Name_style'>兰芝官网旗舰店消息提醒</view>
+        <view class='Namecolor_img'>
+          <image src='../../assets/images/xiangqing_dianzan@2x.png'></image>
+        </view>
+        <view class='Namecolor'>有新的一条消息</view>
+      </view>
+      <image class='right_styleimg' src=''></image>
+    </view>
+  </view>
+</view>

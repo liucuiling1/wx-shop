@@ -1,0 +1,26 @@
+<view class="body">
+  <view class='add'>
+    <view class='name'>
+      <view class='name_style'>选择地址</view>
+      <view class='Nametext_img'>
+        地区信息
+      </view>
+      <image src='../../assets/images/wodeziliao_dizhi_dingwei@2x.png' bindtap='getmap'></image>
+    </view>
+    <view style='clear:both;'></view>
+    <view class='name_height'>
+      <view class='name_style'>详细地址</view>
+      <input type='text' class='Nametext' placeholder="街道门牌信息" bindinput="receiverName" />
+      <view class='textarea_st'>
+        <textarea class='Nametext_st' type='text' placeholder="点击输入长文本" bindinput="street"></textarea>
+      </view>
+    </view>
+    <view style='clear:both;'></view>
+    <view class='name'>
+      <view class='name_style'>邮政编码</view>
+      <input type='number' class='Nametext' placeholder="邮政编码" bindinput="receiverPhone" />
+    </view>
+    <view style='clear:both;'></view>
+    <view class='add_button' bindtap='submitreviiew'>保存</view>
+  </view>
+</view>

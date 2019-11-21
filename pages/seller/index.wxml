@@ -1,0 +1,61 @@
+<view class='body'>
+  <view class="userinfo">
+    <image class="userinfo-avatar" src="../../assets/images/morentouxiang@2x.png" background-size="cover" bindtap='setPhotoInfo'></image>
+    <view class='userinfo_header'>
+      <view>天霜寒气</view>
+      <view class='number'>粉丝：320</view>
+    </view>
+    <image class='right' src='../../assets/images/wode_qianjin@2x.png'></image>
+    <view class='guanzhu'>关注</view>
+  </view>
+  <view style='clear:both;'></view>
+  <view class='header'>
+    <view class="header_cate" wx:for="{{items}}" wx:key="">
+      <view class="titail {{selected == index?'normal':'select'}}" bindtap="categoryId" data-index='{{index}}'>{{ item }}</view>
+    </view>
+  </view>
+  <view class='content'>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司企业</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'> 2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>标题一</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'> 2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>标题二</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'>2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+  </view>
+  <view class='fixed' bindtap='report'>
+    <image src='../../assets/images/举报@2x.png'></image>
+  </view>
+</view>

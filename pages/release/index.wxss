@@ -1,0 +1,143 @@
+page {
+  background: #f1f1f1;
+}
+
+.body {
+  width: 100%;
+}
+
+.header {
+  width: 100%;
+  height: 88rpx;
+  position: fixed;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-sizing: border-box;
+  white-space: nowrap;
+  z-index: 99;
+  background: #fff;
+  line-height: 88rpx;
+  padding-left: 12rpx;
+}
+
+.header_cate {
+  padding: 0 46rpx;
+  height: 80rpx;
+  z-index: 100;
+  display: inline-block;
+  font-size: 36rpx;
+}
+
+.search {
+  width: 88rpx;
+  height: 88rpx;
+  position: fixed;
+  right: 0;
+  background: #fff;
+  z-index: 999;
+  font-size: 55rpx;
+  color: #343434;
+  line-height: 88rpx;
+  text-align: center;
+  box-shadow: -2px 0 2px #ebeaea;
+}
+
+.search image {
+  width: 30px;
+  height: 30px;
+  background-size: 100%;
+  vertical-align: middle;
+}
+
+.titail {
+  height: 80rpx;
+  display: inline-block;
+}
+
+.select {
+  color: #666;
+}
+
+.normal {
+  color: #fe4b33;
+  border-bottom: 2px #fe4b33 solid;
+}
+
+.content {
+  width: 100%;
+  padding-top: 98rpx;
+}
+
+.shoplist {
+  width: 100%;
+  height: 184rpx;
+  padding-top: 32rpx;
+  box-sizing: border-box;
+  border-bottom: 1px #f4f4f4 solid;
+  background: #fff;
+}
+
+.pictureUrl_style {
+  float: left;
+  margin-right: 20rpx;
+  margin-left: 30rpx;
+  overflow: hidden;
+  width: 120rpx;
+  height: 120rpx;
+}
+
+.picture_img {
+  width: 120rpx;
+  height: 120rpx;
+  background: #dfdfdf;
+}
+
+.listy {
+  width: 65%;
+  float: left;
+}
+
+.Name_style {
+  float: left;
+  font-size: 34rpx;
+  width: 100%;
+  height: 50rpx;
+  overflow: hidden;
+  color: #000;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 5rpx;
+}
+
+.Namecolor {
+  color: #a9a9a9;
+  font-size: 26rpx;
+  width: 100%;
+  height: 35rpx;
+  overflow: hidden;
+  line-height: 35rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.right_styleimg {
+  width: 32rpx;
+  height: 32rpx;
+  float: right;
+  margin-right: 20rpx;
+  margin-top: 38rpx;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 204rpx;
+  right: 100rpx;
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.fixed image {
+  width: 100rpx;
+  height: 100rpx;
+  background-size: 100%;
+}

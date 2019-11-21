@@ -1,0 +1,40 @@
+<view class='body'>
+  <view class="container_search">
+    <text>当前城市:北京市</text>
+    <view class='pict'>
+      <image src="../../assets/images/diqu_xuanzhong@2x.png"></image>
+    </view>
+  </view>
+  <view>
+    <view class='nav_left' style='height:{{hetiht}}px;'>
+      <scroll-view scroll-y="true">
+        <view class="nav_left_items active center">省</view>
+        <block wx:for="{{categoryItems}}" wx:key="" wx:for-index="vendorindex" data-index='{{vendorindex}}'>
+          <view class="nav_left_items">{{item.name}}</view>
+          <view class="nav_left_items {{selected == index && vendorindex==selectedindex?'active':'normal'}} " wx:for="{{item.province}}" wx:key="" bindtap='switchTab' data-index='{{index}}' data-vendorindex="{{vendorindex}}">{{item}}
+          </view>
+        </block>
+      </scroll-view>
+    </view>
+    <view class='content'>
+      <view class='hide_style' style='height:{{readhetiht}}px;'></view>
+      <view class="nav_right">
+        <view class="nav_right_items">
+          阜阳市
+        </view>
+        <view class="nav_right_items">
+          合肥市
+        </view>
+        <view class="nav_right_items">
+          阜阳市
+        </view>
+        <view class="nav_right_items">
+          合肥市
+        </view>
+        <!-- <view class="nav_right_items {{item.pCount==0?'discount':''}}" wx:for="{{categoryItemsTwo}}" wx:key="" data-id="{{item}}" bindtap='categorydetail'>
+          合肥市
+        </view> -->
+      </view>
+    </view>
+  </view>
+</view>

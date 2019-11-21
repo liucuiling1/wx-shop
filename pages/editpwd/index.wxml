@@ -1,0 +1,18 @@
+<view class="container">
+  <view class="infoMain">
+    <view class="info-items">
+      <text>手机号：1831056799</text>
+    </view>
+    <view class="info-items">
+      <input type='number' class="info-motto" bindinput="pwdcode" placeholder="点击输入旧证码"></input>
+    </view>
+    <view class="info-items">
+      <input type='number' class="info-motto" password="true" bindinput="customerPwd" placeholder="请设置新密码"></input>
+    </view>
+    <view class="info-items">
+      <input type='number' class="info-motto" password="true" bindinput="sureNewPwd" placeholder="再次确认密码"></input>
+    </view>
+  </view>
+  <view style='clear:both;'></view>
+  <view class='add' bindtap='submitreviiew'>保存</view>
+</view>

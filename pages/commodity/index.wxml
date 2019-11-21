@@ -1,0 +1,18 @@
+<view class='body'>
+  <view class='margintop' wx:for="{{items}}" wx:key="">
+    <view class='heater'>
+      <view class='ba_img' style="background-image: url('../../assets/images/2@2x.png');">
+        <image src='../../assets/images/shangpin_left@2x.png'></image>
+        {{item.head}}
+        <image src='../../assets/images/shangpin_right@2x.png'></image>
+      </view>
+    </view>
+    <view class='center'>
+      <view class='imgstyle' wx:for="{{item.row}}" wx:key="" bindtap='getdetail' data-name='{{item.name}}'>
+        <view class='center_hrader'>{{item.name}}</view>
+        <image src='{{item.picture}}'></image>
+      </view>
+      <view style='clear:both;'></view>
+    </view>
+  </view>
+</view>

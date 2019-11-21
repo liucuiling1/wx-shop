@@ -1,0 +1,46 @@
+<view class='body'>
+  <view class='content'>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src='../../assets/images/morentouxiang@2x.png'></image>
+          <image class='position_ab' src='../../assets/images/tongyong_vip@2x.png'></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司</view>
+          <view class='Namecolor'>北京市东城区</view>
+          <view class='Namecolor'>说明</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src='../../assets/images/morentouxiang@2x.png'></image>
+          <image class='position_ab' src='../../assets/images/tongyong_svip@2x.png'></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司</view>
+          <view class='Namecolor'>北京市东城区</view>
+          <view class='Namecolor'>说明</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src='../../assets/images/morentouxiang@2x.png'></image>
+          <image class='position_ab' src='../../assets/images/tongyong_putongvip@2x.png'></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司</view>
+          <view class='Namecolor'>北京市东城区</view>
+          <view class='Namecolor'>说明</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+  </view>
+</view>

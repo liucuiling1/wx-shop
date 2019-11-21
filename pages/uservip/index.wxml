@@ -1,0 +1,68 @@
+<view class='body'>
+  <view class='contert'>
+    <view class='contert_header'>你已是广告会普通用户</view>
+    <view class='border-bo'>长期有效</view>
+    <view class='contert_header contert_header_size'>用户专享：点赞、评论、收藏展示内容</view>
+    <view class='yuan'></view>
+  </view>
+  <view class='contert_bg'>
+    <view class='contert_header color'>VIP</view>
+    <view class='border-bottom'>升级VIP，享受享受更多广告会特权</view>
+    <view class='vipshare'>
+      <view class='vip_titil'>会员专享：</view>
+      <view class='vipshare_left'>
+        <view>点赞、评论、收藏展示内容</view>
+        <view>展示属于自己的商品信息</view>
+      </view>
+      <view class='vipshare_right' bindtap='getmore'>点击升级</view>
+    </view>
+    <view class='yuan_color'></view>
+    <view style='clear:both;'></view>
+  </view>
+  <view class='contert_bg'>
+    <view class='contert_header'>钻石VIP</view>
+    <view class='border-bottom'>升级钻石VIP，享受享受更多广告会特权</view>
+    <view class='vipshare'>
+      <view class='vip_titil'>会员专享：</view>
+      <view class='vipshare_left'>
+        <view>点赞、评论、收藏展示内容</view>
+        <view>展示属于自己的商品信息</view>
+        <view>优先展示权</view>
+      </view>
+      <view class='vipshare_right vipshare_right_two' bindtap='getmoretwo'>点击升级</view>
+    </view>
+    <view class='yuan_color'></view>
+    <view style='clear:both;'></view>
+  </view>
+  <view class='contert_bg'>
+    <view class='contert_header'>至尊VIP</view>
+    <view class='border-bottom'>升级至尊VIP，享受享受更多广告会特权</view>
+    <view class='vipshare'>
+      <view class='vip_titil'>会员专享：</view>
+      <view class='vipshare_left'>
+        <view>点赞、评论、收藏展示内容</view>
+        <view>展示属于自己的商品信息</view>
+        <view>优先展示权</view>
+        <view>发布快报</view>
+      </view>
+      <view class='vipshare_right vipshare_right_three' bindtap='getmorethree'>点击升级</view>
+    </view>
+    <view class='yuan_color'></view>
+    <view style='clear:both;'></view>
+  </view>
+</view>
+<view class="commodity_screen" catchtouchmove="preventTouchMove" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+<view class='commodity_attr_box' wx:if="{{showModalStatus}}">
+  <view class='showhader'>{{namevip}}
+    <image src='../../assets/images/colse.png' bindtap='getcolse'></image>
+  </view>
+  <view class='changevip'>
+    <view class="change {{selected == index?'normal':'select'}}" bindtap='getone' wx:for="{{listitems}}" wx:key="" data-index='{{index}}'>
+      <view class='fontsize'>
+        <text>{{item.number}}</text>个月
+      </view>
+      <view>￥{{item.money}}</view>
+    </view>
+  </view>
+  <button class="loginBtn">升级</button>
+</view>

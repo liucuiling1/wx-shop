@@ -1,0 +1,81 @@
+page {
+  background: #f1f1f1;
+}
+
+.body {
+  width: 100%;
+}
+
+.content {
+  width: 100%;
+}
+
+.shoplist {
+  width: 100%;
+  height: 182rpx;
+  padding-top: 26rpx;
+  box-sizing: border-box;
+  border-bottom: 1px #F4F4F4 solid;
+  background: #fff;
+}
+
+.pictureUrl_style {
+  float: left;
+  margin-right: 20rpx;
+  margin-left: 30rpx;
+  overflow: hidden;
+  width: 120rpx;
+  height: 120rpx;
+  position: relative;
+}
+
+.picture_img {
+  width: 120rpx;
+  height: 120rpx;
+  border-radius: 50%;
+  background-size: cover;
+}
+
+.position_ab {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 36rpx;
+  height: 26rpx;
+}
+
+.listy {
+  width: 65%;
+  float: left;
+}
+
+.Name_style {
+  float: left;
+  font-size: 34rpx;
+  width: 100%;
+  height: 50rpx;
+  overflow: hidden;
+  color: #333;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  margin-bottom: 5rpx;
+}
+
+.Namecolor {
+  color: #a9a9a9;
+  font-size: 26rpx;
+  width: 100%;
+  height: 35rpx;
+  overflow: hidden;
+  line-height: 35rpx;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.right_styleimg {
+  width: 32rpx;
+  height: 32rpx;
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 38rpx;
+}

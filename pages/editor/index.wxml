@@ -1,0 +1,41 @@
+<view class='body'>
+  <view class='header'>标题</view>
+  <view class='tital'>
+    液晶广告
+    <!-- <input type='text' placeholder='液晶广告' class='textareastyle'></input> -->
+  </view>
+  <view class='header'>添加图片,最多可添加9张</view>
+  <view class='picture'>
+    <block wx:for="{{tempFilePaths}}" wx:key="index">
+      <view class='picture_show border_none'>
+        <image src='{{item}}'></image>
+      </view>
+    </block>
+    <view class='picture_show' bindtap='upimg' hidden='{{show}}'>+</view>
+  </view>
+  <view style='clear:both;'></view>
+  <view class='header'>所属分类</view>
+  <view class="section">
+    <picker mode="multiSelector" bindchange="bindMultiPickerChange" bindcolumnchange="bindMultiPickerColumnChange" value="{{multiIndex}}" range="{{multiArray}}">
+      <view class="picker">
+        {{multiArray[0][multiIndex[0]]}}--{{multiArray[1][multiIndex[1]]}}
+        <image src='../../assets/images/tongyong_xia@2x.png'></image>
+      </view>
+    </picker>
+  </view>
+  <view class='header'>详细描述</view>
+  <view class='fontsize'>
+    <text>A  A</text>
+    <text>字体颜色</text>
+    <text>大小</text>
+    <text>图片</text>
+    <text>动态图</text>
+    <text>短视频</text>
+  </view>
+  <view style='clear:both;'></view>
+  <view class='review'>
+    <textarea placeholder='点击输入文字' class='textareastyle'></textarea>
+  </view>
+  <view class='add' bindtap='topublish'>发布</view>
+  <view style='width:100%;height:114rpx;'></view>
+</view>

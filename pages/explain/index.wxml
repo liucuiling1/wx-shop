@@ -1,0 +1,7 @@
+<view class='body'>
+  <view class='header'>
+    <textarea placeholder='点击输入文字'></textarea>
+    <view class='potion'>23</view>
+  </view>
+  <view class='add' bindtap='submitreviiew'>保存</view>
+</view>

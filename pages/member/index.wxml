@@ -1,0 +1,7 @@
+<view class='body'>
+  <view class='header'>
+    <input type='text' class='type_style' placeholder='点击设置会员名'></input>
+    <image src='../../assets/images/detail.png'></image>
+  </view>
+  <view class='add' bindtap='submitreviiew'>保存</view>
+</view>

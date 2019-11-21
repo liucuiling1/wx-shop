@@ -1,0 +1,278 @@
+page {
+  background-color: #fff;
+}
+
+.body {
+  height: 100%;
+  width: 100%;
+  padding: 40rpx 20rpx;
+  box-sizing: border-box;
+}
+
+.header {
+  color: #333;
+  font-size: 40rpx;
+  line-height: 60rpx;
+  margin-bottom: 40rpx;
+}
+
+.heder_tr {
+  font-size: 30rpx;
+  color: #242e90;
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px #f1f1f1 solid;
+}
+
+.heder_tr text {
+  font-size: 30rpx;
+  color: #919191;
+  margin-left: 52rpx;
+}
+
+.header_center {
+  font-size: 30rpx;
+  color: #666;
+  text-align: center;
+  width: 100%;
+  margin-top: 40rpx;
+  margin-bottom: 25rpx;
+}
+
+.header_center text {
+  color: #242e90;
+}
+
+.detail_img {
+  width: 100%;
+  height: 300rpx;
+  border: 1px red solid;
+  background-size: 100%;
+  margin-bottom: 46rpx;
+}
+
+.detail_miao {
+  width: 100%;
+  border-radius: 15rpx;
+  padding: 30rpx;
+  box-sizing: border-box;
+  color: #888;
+  background: #f4f4f4;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  margin-bottom: 64rpx;
+}
+
+.text_in {
+  text-indent: 54rpx;
+}
+
+.detail_center {
+  width: 100%;
+  padding: 0 30rpx;
+  box-sizing: border-box;
+  color: #353535;
+  background: #f4f4f4;
+  font-size: 36rpx;
+  line-height: 60rpx;
+}
+
+.ulli {
+  border-bottom: 1px #ebebeb solid;
+  padding: 30rpx;
+  box-sizing: border-box;
+}
+
+.ulli view {
+  width: 14rpx;
+  height: 14rpx;
+  background: #8a8a8a;
+  border-radius: 50%;
+  margin-right: 22rpx;
+  display: inline-block;
+  margin-top: -8rpx;
+}
+
+.heart {
+  width: 100%;
+  height: 114rpx;
+  border-bottom: 1px #f1f1f1 solid;
+  line-height: 114rpx;
+  color: #999;
+  font-size: 28rpx;
+  text-align: right;
+  margin-bottom: 22rpx;
+}
+
+.heart image {
+  width: 40rpx;
+  height: 34rpx;
+  background-size: 100%;
+  margin-right: 16rpx;
+  vertical-align: middle;
+  margin-top: -5rpx;
+}
+
+.patteey {
+  width: 100%;
+  height: 300rpx;
+  position: relative;
+  margin-bottom: 22rpx;
+}
+
+.patteey_img {
+  width: 100%;
+  height: 300rpx;
+  border: 1px red solid;
+}
+
+.patteey_ab {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 60rpx;
+  height: 30rpx;
+  background-size: 100%;
+}
+
+.review {
+  width: 100%;
+  border-top: 1px #f1f1f1 solid;
+  border-bottom: 1px #f1f1f1 solid;
+  padding: 22rpx 0;
+  box-sizing: border-box;
+  float: left;
+}
+
+.me_headeurl {
+  width: 90rpx;
+  float: left;
+}
+
+.me_headeurl image {
+  width: 90rpx;
+  height: 90rpx;
+  border: 1px red solid;
+  border-radius: 50%;
+}
+
+.review_right {
+  width: 84%;
+  float: right;
+}
+
+.name {
+  color: #4b6797;
+  font-size: 32rpx;
+  margin-bottom: 15rpx;
+}
+
+.word {
+  color: #333;
+  font-size: 32rpx;
+}
+
+.review_back {
+  text-align: right;
+  margin: 12rpx 0 20rpx 0;
+}
+
+.review_back view {
+  width: 110rpx;
+  height: 40rpx;
+  background: #e5e5e5;
+  color: #666;
+  font-size: 26rpx;
+  border-radius: 30rpx;
+  display: inline-block;
+  text-align: center;
+  line-break: 40rpx;
+}
+
+.fack {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 22rpx;
+  box-sizing: border-box;
+}
+
+.fack_header {
+  font-size: 26rpx;
+  color: #4a4a4a;
+}
+
+.fack_header text {
+  color: #4b6797;
+}
+
+.fack_back {
+  color: #999;
+  font-size: 26rpx;
+  margin-bottom: 40rpx;
+  margin-top: 10rpx;
+}
+
+.fack_back view {
+  float: right;
+  color: #666;
+}
+
+.getmore {
+  color: #4b6797;
+  font-size: 26rpx;
+}
+
+.none {
+  color: #999;
+  font-size: 26rpx;
+  text-align: center;
+  height: 80rpx;
+  width: 100%;
+  line-height: 90rpx;
+}
+
+.empty {
+  width: 100%;
+  height: 102rpx;
+}
+
+.fixed {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100rpx;
+  border-top: 1px #dbdbdb solid;
+  line-height: 100rpx;
+  background: #fff;
+  z-index: 9999;
+}
+
+.input_style {
+  width: 80%;
+  height: 54rpx;
+  background: #e8e8e8;
+  line-height: 54rpx;
+  float: left;
+  margin-left: 20rpx;
+  border-radius: 15rpx;
+  margin-top: 22rpx;
+  overflow: hidden;
+}
+
+.input_style input {
+  width: 100%;
+  height: 54rpx;
+  background: #e8e8e8;
+  padding-left: 44rpx;
+  box-sizing: border-box;
+  font-size: 28rpx;
+}
+
+.fixed image {
+  width: 50rpx;
+  height: 50rpx;
+  background-size: 10%;
+  float: right;
+  margin-right: 48rpx;
+  margin-top: 24rpx;
+}

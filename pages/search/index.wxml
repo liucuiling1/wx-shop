@@ -1,0 +1,110 @@
+<view class='body'>
+  <view class='header'>
+    <view class="header_cate " wx:for="{{items}}" wx:key="">
+      <text class="titail {{selected == index?'normal':'select'}}" bindtap="NametypeId" data-index='{{item.index}}'>{{ item.name }}</text>
+    </view>
+  </view>
+  <view class='search'>
+    <view class='inputtext'>
+      <image src='../../assets/images/sousuo@2x.png'></image>
+      <input type='text' class='text_style' placeholder="请输入搜索内容" bindinput="inputpackageName"></input>
+    </view>
+    <view class='search_button' bindtap='search'>取消</view>
+  </view>
+  <view class='history'>
+    <view class='history_search'>历史搜索
+      <image src='../../assets/images/delete.png'></image>
+    </view>
+    <view class='history_name'>好的企业</view>
+    <view class='history_name'>好的企业ghdhgrtgdfdhgdohidrui</view>
+    <view class='history_name'>好的企业hhaode </view>
+    <view style='clear:both;'></view>
+  </view>
+  <view style='clear:both;'></view>
+  <view class='content' wx:if="{{selected==0}}">
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司企业</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'>发布者名称  2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司企业</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'>发布者名称  2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司企业</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'>发布者名称  2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+
+  </view>
+  <view class='content' wx:if="{{selected==1}}">
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img redius' src='../../assets/images/morentouxiang@2x.png'></image>
+          <image class='position_ab' src='../../assets/images/tongyong_vip@2x.png'></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司</view>
+          <view class='Namecolor'>北京市东城区</view>
+          <view class='Namecolor'>说明</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img redius' src='../../assets/images/morentouxiang@2x.png'></image>
+          <image class='position_ab' src='../../assets/images/tongyong_svip@2x.png'></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司</view>
+          <view class='Namecolor'>北京市东城区</view>
+          <view class='Namecolor'>说明</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style '>
+          <image class='picture_img redius' src='../../assets/images/morentouxiang@2x.png'></image>
+          <image class='position_ab' src='../../assets/images/tongyong_putongvip@2x.png'></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司</view>
+          <view class='Namecolor'>北京市东城区</view>
+          <view class='Namecolor'>说明</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+  </view>
+</view>

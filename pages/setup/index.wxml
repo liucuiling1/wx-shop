@@ -1,0 +1,16 @@
+<view class="container">
+  <view class="infoMain">
+    <view class="info-items">
+      <text>手机号：1831056799</text>
+      <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+    </view>
+    <view style='clear:both;'></view>
+    <view class="info-items" bindtap='editpwd'>
+      <text>密码</text>
+      <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+      <view style='float:right;margin-right:30rpx;'>已设置</view>
+    </view>
+  </view>
+  <view style='clear:both;'></view>
+  <view class='add' bindtap='submitreviiew'>退出登录</view>
+</view>

@@ -1,0 +1,125 @@
+<view class="info-cont">
+  <view class="infoMain">
+    <view class='personal'>基本信息</view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../headsculpture/index'>
+        <text class='infotext_left'>头像</text>
+        <view class="infotext">
+          <image class="userinfo-avatar" style='z-index:99;' src="../../assets/images/morentouxiang@2x.png" background-size="cover"></image>
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../member/index'>
+        <text class='infotext_left'>会员名</text>
+        <view class="infotext">
+          <text class="custo">小太阳hot</text>
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../twocode/index'>
+        <text class='infotext_left'>二维码</text>
+        <view class="infotext">
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../explain/index'>
+        <text class='infotext_left'>说明</text>
+        <view class="infotext">
+          <text class="custo">制度设计都是</text>
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class='personal'>企业信息</view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../entername/index'>
+        <text class='infotext_left'>企业名称</text>
+        <view class="infotext">
+          <text class="custo">北京科技有限公司</text>
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../business/index'>
+        <text class='infotext_left'>营业执照</text>
+        <view class="infotext">
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../figure/index'>
+        <text class='infotext_left'>企业形象</text>
+        <view class="infotext">
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../display/index'>
+        <text class='infotext_left'>个性展示</text>
+        <view class="infotext">
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class='personal'>联系人</view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../contacts/index'>
+        <text class='infotext_left'>联系人</text>
+        <view class="infotext">
+          <text class="custo">某某</text>
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../phone/index'>
+        <text class='infotext_left'>联系人电话</text>
+        <view class="infotext">
+          <text class="custo">18310566852</text>
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+    <view class='personal'>地址</view>
+    <view class="info-items">
+      <navigator hover-class='none' url='../addstress/index'>
+        <text class='infotext_left'>我的地址</text>
+        <view class="infotext">
+          <text class="custo">北京市东城区</text>
+          <view class='right_edit'>
+            <image src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+          </view>
+        </view>
+      </navigator>
+    </view>
+  </view>
+</view>

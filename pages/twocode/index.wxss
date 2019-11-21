@@ -1,0 +1,45 @@
+/* pages/twocode/index.wxss */
+
+page {
+  background: #f1f1f1;
+}
+
+.body {
+  width: 100%;
+}
+
+.code {
+  width: 480rpx;
+  height: 584rpx;
+  background: #fff;
+  margin: 69rpx auto;
+  text-align: center;
+}
+
+.code image {
+  width: 418rpx;
+  height: 418rpx;
+  background-size: 100%;
+  vertical-align: middle;
+  margin-top: 31rpx;
+  background: #999;
+}
+
+.code view {
+  font-size: 36rpx;
+  color: #333;
+  margin-top: 46rpx;
+}
+
+.add {
+  width: 92%;
+  height: 94rpx;
+  text-align: center;
+  line-height: 94rpx;
+  background: #fe4b33;
+  margin: 0 auto;
+  margin-top: 69rpx;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 36rpx;
+}

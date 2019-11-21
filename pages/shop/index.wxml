@@ -1,0 +1,56 @@
+<view class='body'>
+  <view class='relative_style'>
+    <swiper class="swiper" indicator-dots="true" autoplay="true" interval="4000" duration="1000" circular="true" current="{{swiperCurrent}}">
+      <block wx:for="{{ items }}" wx:key="">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image" mode="aspectFill" />
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class='search'>
+      <image src="../../assets/images/shouye_sousuo@2x.png"></image>
+      <view class='search-tip' bindtap='getsearch'>输入关键字搜索</view>
+      <view class='search-right'>
+        <image class='map_img' src="../../assets/images/shouye_dingwei@2x.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class='sort'>
+    <view class='sort-item' wx:for="{{certlist}}" wx:key="" bindtap='sortClick' data-id='{{item.categoryId}}' data-name='{{item.category}}'>
+      <navigator hover-class="none" url="{{item.path}}">
+        <image src='{{item.icon}}'></image>
+        <view class='name_style'>{{item.name}}</view>
+      </navigator>
+    </view>
+  </view>
+  <view class='Rolling'>
+    <swiper style="height:40px;" interval="4000" duration="1000" circular="true" vertical="true" autoplay="true" current="{{orderCurrent}}">
+      <block wx:for="{{ recentOrder }}" wx:key="">
+        <swiper-item>
+          <view>{{item}}</view>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class='book'>快报</view>
+  </view>
+  <view class='bg_color'>
+    <view class='find'>
+      <image src='../../assets/images/shouye_faxian@2x.png'></image>
+    </view>
+    <view class='conter'>
+      <view class='conter_shop' wx:for="{{ shopitems }}" wx:key="" style='height:{{second_height}}px;'>
+        <navigator hover-class="none" url="/pages/shopdetail/index">
+          <view class='conter_image' style='height:{{image_height}}px;'>
+            <image mode="scaleToFill" src="{{ item.pictureUrl }} " style='height:{{image_height}}px;'></image>
+          </view>
+          <view class='conter_detial'>
+            <view class='conter_pack'> {{item.name}}</view>
+            <view class='conter_Label'>{{item.content}}
+              <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+            </view>
+          </view>
+        </navigator>
+      </view>
+    </view>
+  </view>
+</view>

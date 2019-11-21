@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/shop/index",
+    "pages/commodity/index",
+    "pages/commoditydetail/index",
+    "pages/uservip/index",
+    "pages/editor/index",
+    "pages/release/index",
+    "pages/review/index",
+    "pages/user/index",
+    "pages/seller/index",
+    "pages/personal/index",
+    "pages/report/index",
+    "pages/business/index",
+    "pages/display/index",
+    "pages/twocode/index",
+    "pages/figure/index",
+    "pages/explain/index",
+    "pages/phone/index",
+    "pages/entername/index",
+    "pages/contacts/index",
+    "pages/addstress/index",
+    "pages/search/index",
+    "pages/shopdetail/index",
+    "pages/forgetpwd/index",
+    "pages/panter/index",
+    "pages/register/index",
+    "pages/address/index",
+    "pages/headsculpture/index",
+    "pages/useragreement/index",
+    "pages/setup/index",
+    "pages/editpwd/index",
+    "pages/member/index",
+    "pages/feedback/index",
+    "pages/collection/index",
+    "pages/recruit/index",
+    "pages/lease/index",
+    "pages/activity/index",
+    "pages/fleamarket/index",
+    "pages/news/index",
+    "pages/concern/index",
+    "pages/consult/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FE4B33",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "商城",
+    "backgroundColor": "#F5F5F5",
+    "backgroundTextStyle": "dark",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#C1C1C1",
+    "selectedColor": "#F9563F",
+    "borderStyle": "white",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/shop/index",
+        "iconPath": "assets/images/shouye_shouye_weixuanzhong@2x.png",
+        "selectedIconPath": "assets/images/shouye_shouye_xuanzhong@2x.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/consult/index",
+        "iconPath": "assets/images/shouye_zixun_weixuanzhong@2x.png",
+        "selectedIconPath": "assets/images/shouye_zixun_ixuanzhong@2x.png",
+        "text": "资讯"
+      },
+      {
+        "pagePath": "pages/concern/index",
+        "iconPath": "assets/images/shouye_guanzhu_weixuanzhong@2x.png",
+        "selectedIconPath": "assets/images/shouye_guanzhu_xuanzhong@2x.png",
+        "text": "关注"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "iconPath": "assets/images/shouye_wode_weixuanzhong@2x.png",
+        "selectedIconPath": "assets/images/shouye_wode_xuanzhong@2x.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "debug": false
+}

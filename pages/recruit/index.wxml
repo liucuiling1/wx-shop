@@ -1,0 +1,43 @@
+<view class='body'>
+  <view class='content'>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司企业</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'>发布者名称 2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司企业</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'>发布者名称 2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+    <view class='shoplist'>
+      <navigator hover-class="none" url=''>
+        <view class='pictureUrl_style'>
+          <image class='picture_img' src=''></image>
+        </view>
+        <view class='listy'>
+          <view class='Name_style'>北京科技有限责任公司企业</view>
+          <view class='Namecolor'>详细描述</view>
+          <view class='Namecolor'>发布者名称 2018-12-06</view>
+        </view>
+        <image class='right_styleimg' src='../../assets/images/tongyong_xiangqian@2x.png'></image>
+      </navigator>
+    </view>
+  </view>
+</view>

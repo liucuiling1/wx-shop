@@ -1,0 +1,14 @@
+<view class='body'>
+  <view class='display' style='height:{{image_height}}px;'></view>
+  <view class='picture'>
+    <block wx:for="{{tempFilePaths}}" wx:key="index">
+      <view class='picture_show border_none'>
+        <image src='{{item}}'></image>
+      </view>
+    </block>
+    <view class='picture_show' bindtap='upimg' hidden='{{show}}'>+</view>
+  </view>
+  <view class='addpic'>添加图片
+    <text>{{num}}/9</text>
+  </view>
+</view>

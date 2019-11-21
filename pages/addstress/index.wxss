@@ -1,0 +1,99 @@
+page {
+  background: #f1f1f1;
+}
+
+.body {
+  width: 100%;
+}
+
+.add {
+  width: 100%;
+  margin-top: 20rpx;
+}
+
+.name {
+  width: 100%;
+  height: 90rpx;
+  border-bottom: 1px #f3f3f3 solid;
+  line-height: 90rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.name_height {
+  width: 100%;
+  height: 182rpx;
+  line-height: 90rpx;
+  padding-left: 30rpx;
+  box-sizing: border-box;
+  background: #fff;
+  border-bottom: 1px #f3f3f3 solid;
+}
+
+.name image {
+  width: 32rpx;
+  height: 36rpx;
+  background-size: 100%;
+  float: right;
+  margin-right: 45rpx;
+  margin-top: 25rpx;
+}
+
+.name_style {
+  float: left;
+  width: 80px;
+  color: #333;
+  font-size: 34rpx;
+  height: 90rpx;
+}
+
+.Nametext {
+  font-size: 30rpx;
+  color: #999;
+  height: 90rpx;
+  line-height: 90rpx;
+}
+
+.Nametext_img {
+  width: 60%;
+  float: left;
+  font-size: 30rpx;
+  color: #999;
+}
+
+.textarea_st {
+  width: 100%;
+  height: 90rpx;
+  box-sizing: border-box;
+}
+
+.Nametext_st {
+  width: 100%;
+  height: 90rpx;
+  float: left;
+  box-sizing: border-box;
+  background: #fff;
+  font-size: 30rpx;
+  color: #999;
+  line-height: 20px;
+  padding-top: 25rpx;
+}
+
+/* placeholder {
+  font-size: 30rpx;
+  color: #999;
+} */
+
+.add_button {
+  width: 92%;
+  height: 88rpx;
+  line-height: 88rpx;
+  text-align: center;
+  background: #09bb07;
+  margin: 0 auto;
+  margin-top: 215rpx;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 36rpx;
+}

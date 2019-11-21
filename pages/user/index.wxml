@@ -1,0 +1,70 @@
+<view class="container">
+  <view class="userinfo">
+    <view class='userinfo_view'>
+      <image class="userinfo-avatar" src="{{headimgurl}}" background-size="cover" bindtap='setPhotoInfo'></image>
+      <image class='position_ab' src='../../assets/images/tongyong_svip@2x.png'></image>
+    </view>
+    <view class='header'>
+      <view>天霜寒气</view>
+      <view class='stylecolor'>粉丝：320</view>
+    </view>
+    <view class='right' bindtap='personal'>
+      <image src='../../assets/images/wode_qianjin@2x.png'></image>
+    </view>
+  </view>
+  <view class='news-item'>
+    <navigator hover-class="none" url="/pages/news/index">
+      <view class='news-item-title'>
+        <image src="../../assets/images/wode_xiaoxi@2x.png" class='userimg'></image>
+        我的消息
+        <image class='img_style' src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+        <view class='number'>32 </view>
+      </view>
+    </navigator>
+  </view>
+  <view class='news-item'>
+    <navigator hover-class="none" url="/pages/uservip/index">
+      <view class='news-item-title'>
+        <image src="../../assets/images/wode_huiyuan@2x.png" class='userimg'></image>
+        会员
+        <image class='img_style' src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+      </view>
+    </navigator>
+  </view>
+  <view class='news-item' bindtap='scanCode'>
+    <view class='news-item-title'>
+      <image src="../../assets/images/wode_saoyisao@2x.png" class='userimg'></image>
+      扫一扫
+      <image class='img_style' src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+    </view>
+  </view>
+  <view class='news-item' wx:for="{{ items }}" wx:key="">
+    <navigator hover-class="none" url="{{item.path}}">
+      <view class='news-item-title'>
+        <image src="{{ item.icon }}" class='userimg'></image>
+        {{ item.text }}
+        <image class='img_style' src='../../assets/images/tongyong_liebiao_qianjin@2x.png'></image>
+      </view>
+    </navigator>
+  </view>
+</view>
+<view class="commodity_screen" catchtouchmove="preventTouchMove" bindtap="hideModal" wx:if="{{showModalStatus}}"></view>
+<view class='commodity_attr_box' wx:if="{{showModalStatus}}">
+  <view class="inputView">
+    <view class='tubiao'>
+      <text>+86</text>
+      <image class="nameImage" src="../../assets/images/shoujihaoqianzhui@2x.png"></image>
+    </view>
+    <input type='text' class="inputText" placeholder="请输入手机号" bindinput="operId" />
+  </view>
+  <!--密码-->
+  <view class="inputView">
+    <input type='text' class="inputText_pwd" password="true" placeholder="点击输入密码" bindinput="operPwd" />
+  </view>
+  <!--按钮-->
+  <view class="loginBtnView">
+    <view class="Registerbtn_left" bindtap="register">暂无账号，前去注册?</view>
+    <view class="Registerbtn" bindtap="editpwd">忘记密码</view>
+  </view>
+  <button class="loginBtn" bindtap="login">登录</button>
+</view>
